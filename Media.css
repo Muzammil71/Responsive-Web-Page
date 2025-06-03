@@ -267,6 +267,10 @@
       width: 80%;
       height: auto;
   }
+  .box-2 {
+    border: hidden;
+  }
+
 
   .box-3 .certificates {
       justify-content: center;
@@ -409,6 +413,7 @@
 
   .main-heading {
       font-size: 3.8rem;
+      text-align: center;
   }
 
   .box-1 .sub-heading {
@@ -468,7 +473,6 @@
   }
 
   .box-3 .certificates {
-      justify-content: space-around;
       margin-bottom: 2rem;
 
       & img {
@@ -643,21 +647,20 @@
   }
 
   .form {
-      grid-template-columns: 1fr;
 
       & .form-group {
           & div {
               width: 100%;
-              text-align: end;
+              text-align: start;
 
               & input {
-                  width: 80%;
+                  width: 60%;
               }
           }
       }
 
       & .confidential-img {
-          width: 80%;
+          width: 100%;
           height: auto;
           padding: 1rem;
       }
@@ -742,7 +745,6 @@
       & .form-group {
           & div {
               & input {
-                  margin-right: 34px;
                   margin-top: 3px;
               }
           }
@@ -784,9 +786,6 @@
   .testimonial-bottom .certificate-image {
       width: 40%;
       height: auto;
-  }
-  .confidential-img{
-      display: none;
   }
   .main-heading{
       margin-left: 0px;
